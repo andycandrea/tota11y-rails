@@ -24,7 +24,11 @@ Insert into `application.html.erb`
 
     <% if Rails.env.development? %>
       <%= javascript_include_tag "tota11y" %>
-    <% end %>  
+    <% end %>
+
+Insert into `config/initializers/assets.rb`
+
+    Rails.application.config.assets.precompile += %w(tota11y.js)
 
 ## Development
 
