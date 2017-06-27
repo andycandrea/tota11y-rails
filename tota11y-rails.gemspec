@@ -6,12 +6,12 @@ require 'tota11y-rails/version'
 Gem::Specification.new do |spec|
   spec.name          = 'tota11y-rails'
   spec.version       = Tota11y::VERSION
-  spec.authors       = ['Steven Spiel']
+  spec.authors       = ['Steven Spiel', 'Andy Andrea']
   spec.email         = ['stevenspiel@gmail.com']
 
   spec.summary       = 'Gem wrapper for javascript library Tota11y'
   spec.description   = 'An accessibility (a11y) visualization toolkit http://khan.github.io/tota11y/'
-  spec.homepage      = 'https://github.com/stevenspiel/tota11y-rails'
+  spec.homepage      = 'https://github.com/andycandrea/tota11y-rails'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)
